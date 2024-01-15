@@ -1,50 +1,37 @@
 import React from 'react';
+import './Navbar.css';
 
-const Footer = () => {
+const Navbar = () => {
   return (
-    <footer style={styles.footer}>
-      <div style={styles.footerContent}>
-        <div style={styles.footerLeft}>
-          <p>&copy; 2024 Your Company. All Rights Reserved.</p>
-        </div>
-        <div style={styles.footerRight}>
-          <ul style={styles.socialIcons}>
-            <li><a href="#" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">GOLDSWORTH</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarText">
+          <ul className="navbar-nav mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Courses</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Discussion</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Contact</a>
+            </li>
           </ul>
+          <button id="login-btn" type="button" className="btn btn-primary">Log In</button>
         </div>
       </div>
-    </footer>
+    </nav>
   );
 };
 
-const styles = {
-  footer: {
-    backgroundColor: '#E3EDED',
-    padding: '20px',
-    textAlign: 'center',
-    color: '#333',
-  },
-  footerContent: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    maxWidth: '1200px',
-    margin: '0 auto',
-  },
-  footerLeft: {
-    flex: 1,
-  },
-  footerRight: {
-    flex: 1,
-  },
-  socialIcons: {
-    display: 'flex',
-    gap: '10px',
-    listStyleType: 'none',
-    padding: 0,
-    margin: '10px 0 0 0',
-  },
-};
-
-export default Footer;
+export default Navbar;

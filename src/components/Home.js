@@ -194,9 +194,9 @@ const Home = () => {
 
 
       <div id="subscription" clclassName="container-fluid" style={{ backgroundColor: '#fff', padding: '20px', margin: '10px', marginLeft: '700px'}}>
-        <h2>Subscribe to our News Letter</h2>
+        <h2 id="subscribe">subscribe to our News Letter</h2>
        <form style={{ textAlign: 'center', backgroundColor: '#F1FAFE', padding: '20px', borderRadius: '10px' }}>
-  <input type="email" id="email" name="email" style={{ padding: '8px', marginRight: '10px', borderRadius: '5px', border: 'none' }} />
+  <input  placeholder='enter your email' type="email" id="email" name="email" style={{ padding: '8px', marginRight: '10px', borderRadius: '5px', border: 'none' }} />
   <button type="submit" style={{ backgroundColor: '#fff', color: '#004B5B', padding: '8px', borderRadius: '5px', border: 'none', cursor: 'pointer' }}>Subscribe</button>
 </form>
 
@@ -206,8 +206,8 @@ const Home = () => {
       <div id="banner" style={{ backgroundColor: '#fff', padding: '20px', margin: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center', boxShadow: '0px 4px 15px 5px rgba(0, 76, 93, 0.07)', width: '1500px',height:'200px', marginLeft: '200px' }}>
   <div class="d-flex flex-row mb-2">
     <div class="p-2 flex-lg-fill">
-      <h2 id="circle-text">Take the first step to<br /> securing your academic future</h2>
-      <h4>Get Started today</h4>
+      <h2 className="text-start"id="circle-text">Take the first step to<br /> securing your academic future</h2>
+      <h4 className="text-start">Get Started today</h4>
     </div>
     <div class="p-2 flex-lg-fill">
       <div class="semi-circle"></div>

@@ -210,7 +210,37 @@ color: #00A8A2;
  }
 
  #testimonials-card{
+    width: 500px;
+    height: 190px;
+    margin-left: 200px;
     border-radius: 10px;
         background: #FFF;
         box-shadow: 5px 20px 30px 15px rgba(0, 138, 168, 0.10);
+ }
+
+ #subscribe{
+    color: #004B5B;
+        font-family: Lexend;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+ }
+ #banner h2{
+    color: #004B5B;
+        font-family: Lexend;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        /* 133.333% */
+ }
+ #banner h4{
+    color: #00A8A2;
+        font-family: Lexend;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        /* 116.667% */
  }
