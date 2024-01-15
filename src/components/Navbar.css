@@ -1,0 +1,23 @@
+.navbar {
+    padding: 20px 10px 20px 0px;
+    background-color: #fff;
+    transition: all ease 0.4s;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: #00A8A2 !important;
+}
+
+.navbar-nav  a {
+    font-size: 16px;
+    color:#00A8A2;
+}
+#login-btn{
+    width: 100px;
+border-radius: 30px;
+ background: #45A5A1;
+}
+#elements{
+    margin-left: 100px;
+}
