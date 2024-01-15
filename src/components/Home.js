@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import './Home.css'
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
       <div id="card-courses" className="card mb-3" style={{ maxWidth: '500px', flex: '1', margin: '10px' }}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="..." className="img-fluid rounded-start" alt="..." />
+            <img src="https://cdn-icons-png.flaticon.com/128/4844/4844459.png" className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -37,7 +37,7 @@ const Home = () => {
       <div id="card-courses" className="card mb-3" style={{ maxWidth: '500px', flex: '1', margin: '10px' }}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="..." className="img-fluid rounded-start" alt="..." />
+            <img src="https://cdn-icons-png.flaticon.com/128/2382/2382461.png" className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -51,7 +51,7 @@ const Home = () => {
       <div id="card-courses" className="card mb-3" style={{ maxWidth: '500px', flex: '1', margin: '10px' }}>
         <div className="row g-0">
           <div className="col-md-4">
-            <img src="..." className="img-fluid rounded-start" alt="..." />
+            <img src="https://cdn-icons-png.flaticon.com/128/10007/10007857.png" className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -69,17 +69,18 @@ const Home = () => {
       
       <div className="container-fluid" style={{ backgroundColor: '#fff', padding: '20px', margin: '10px' }}>
         
-<div class="d-flex flex-row mb-2">
+<div id="container4" class="d-flex flex-row mb-2">
           <div class="p-2 flex-lg-fill">
-            <img src="" alt="image1" />
+            <img src="https://assets.techrepublic.com/uploads/2022/05/AI-for-business-users.jpeg" alt="image1" />
           </div>
-          <div class="p-2 flex-lg-fill">
+          <div id="custom-containerright1" class="p-2 flex-lg-fill">
             <h2 >Education Confidence</h2>
-            <h4>Neque porro quisquam est qui dolorem <br/>ipsum quia dolor sit amet, consectetur,<br/> adipisci velit..."</h4>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  Neque porro quisquam est  </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  qui dolorem ipsum quia dolor sit amet, </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
-
+            <h4>Neque porro quisquam est qui dolorem <br />ipsum quia dolor sit amet, consectetur,<br /> adipisci velit..."</h4>
+             <ul class="custom-listright">
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  Neque porro quisquam est  </li>
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  qui dolorem ipsum quia dolor sit amet, </li>
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
+            </ul>
           </div>
   
 </div>
@@ -89,18 +90,20 @@ const Home = () => {
 
        <div className="container-fluid" style={{ backgroundColor: '#fff', padding: '20px', margin: '10px' }}>
         
-        <div class="d-flex flex-row mb-2">
+        <div   id="container4" class="d-flex flex-row mb-2">
           
-           <div class="p-2 flex-lg-fill">
+           <div  id="custom-containerleft" class="p-2 flex-lg-fill d-flex flex-column">
             <h2 >Achieve Academic Success</h2>
             <h4>Exceptional value with an easy-to-use platform.</h4>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  Neque porro quisquam est qui </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  dolorem ipsum quia dolor sit amet,  </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
-   
+
+            <ul class="custom-listleft">
+            <li class="list-group-item  align-items-center"> <span class="badge ">󠀿󠀿✔</span>  Neque porro quisquam est qui </li>
+            <li class="list-group-item  align-items-center"> <span class="badge ">󠀿󠀿✔</span>  dolorem ipsum quia dolor sit amet,  </li>
+            <li class="list-group-item align-items-center"> <span class="badge ">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
+            </ul>
           </div>
           <div class="p-2 flex-lg-fill">
-            <img src="" alt="image1" />
+            <img src="https://img-cdn.inc.com/image/upload/w_1024,h_576,c_fill/images/panoramic/GettyImages-1192241835_464834_qr50f5.jpg" alt="image1" />
           </div>
          
   
@@ -111,17 +114,19 @@ const Home = () => {
 
        <div className="container-fluid" style={{ backgroundColor: '#fff', padding: '20px', margin: '10px' }}>
         
-<div class="d-flex flex-row mb-2">
-          <div class="p-2 flex-lg-fill">
-            <img src="" alt="image1" />
+<div   id="container4" class="d-flex flex-row mb-2">
+          <div id="custom-containerright "class="p-2 flex-lg-fill">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYwzw4B6mrVK6EUu7bDTnu7ZjynxAdDWh8Fx7mlxj7BlUidIYif5YwtZYu6QQNdl_A8YA&usqp=CAU" alt="image1" />
           </div>
           <div class="p-2 flex-lg-fill">
              <h2 >Unify, Manage, Excel</h2>
-            <h4>Enhance your collaboration between <br/>parents, teachers and students</h4>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  Neque porro quisquam est </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  qui dolorem ipsum quia dolor sit amet,  </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
-          </div>
+            <h4>Enhance your collaboration between <br />parents, teachers and students</h4>
+             <ul class="custom-listright2">
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  Neque porro quisquam est </li>
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  qui dolorem ipsum quia dolor sit amet,  </li>
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
+          </ul>
+          \</div>
   
 </div>
        
@@ -129,14 +134,15 @@ const Home = () => {
 
  <div className="container-fluid" style={{ backgroundColor: '#fff', padding: '20px', margin: '10px' }}>
         
-        <div class="d-flex flex-row mb-2">
-           <div class="p-2 flex-lg-fill">
+        <div   id="container4" class="d-flex flex-row mb-2">
+           <div id="custom-containerleft"class="p-2 flex-lg-fill">
             <h2 >Full Clarity On Matters <br/>Education made Easy</h2>
             <h4>Complete transparency is what you’ll see.</h4>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  Neque porro quisquam est  </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  qui dolorem ipsum quia dolor sit amet,  </li>
-            <li class="list-group-item"> <span class="badge bg-primary rounded-pill">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
-
+            <ul class="custom-listleft2">
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  Neque porro quisquam est  </li>
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  qui dolorem ipsum quia dolor sit amet,  </li>
+            <li class="list-group-item"> <span class="badge ">󠀿󠀿✔</span>  consectetur, adipisci velit..." </li>
+              </ul>
         </div>
           <div class="p-2 flex-lg-fill">
            
@@ -156,10 +162,10 @@ const Home = () => {
       {/* end of feedback */}
 
       {/* testimonials */}
-<div className="container-fluid" style={{ backgroundColor: ' #F4FCFF', padding: '20px', margin: '10px' }}>
+<div id="testimonials" className="container-fluid" style={{ backgroundColor: ' #F4FCFF', padding: '20px', margin: '10px' }}>
        <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card">
+    <div id="testimonials-card"class="card">
       <div class="card-body">
         
         <p class="card-text">Lorem ipsum dolor sit amet, consectetuer<br /> adipiscing elit, sed diam nonummy nibh <br />euismod tincidunt ut laoreet dolore <br />magna aliquam consectetuer adipiscing elit, sed</p>
@@ -169,7 +175,7 @@ const Home = () => {
     </div>
   </div>
   <div class="col-sm-6">
-    <div class="card">
+    <div id="testimonials-card" class="card">
       <div class="card-body">
         
         <p class="card-text">Lorem ipsum dolor sit amet, consectetuer<br /> adipiscing elit, sed diam nonummy nibh <br />euismod tincidunt ut laoreet dolore<br /> magna aliquam consectetuer adipiscing elit, sed</p>
